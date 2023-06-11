@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication
+namespace WebApplication.Pages
 {
 
 
-    public partial class _default
+    public partial class DetectFolder
     {
 
         /// <summary>
@@ -24,22 +24,22 @@ namespace WebApplication
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// path_label control.
+        /// pathLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label path_label;
+        protected global::System.Web.UI.WebControls.Label pathLabel;
 
         /// <summary>
-        /// input_file_path control.
+        /// inputFilePath control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox input_file_path;
+        protected global::System.Web.UI.WebControls.TextBox inputFilePath;
 
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -51,21 +51,21 @@ namespace WebApplication
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// Button_zobrazit control.
+        /// ViewButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_zobrazit;
+        protected global::System.Web.UI.WebControls.Button ViewButton;
 
         /// <summary>
-        /// vypis_aktualny control.
+        /// ResultsLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label vypis_aktualny;
+        protected global::System.Web.UI.WebControls.Label ResultsLabel;
     }
 }
